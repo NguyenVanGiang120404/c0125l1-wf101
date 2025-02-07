@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+<style>
+    p.dotted {
+        border-style: dotted;
+    }
+
+    p.dashed {
+        border-style: dashed;
+    }
+
+    p.solid {
+        border-style: solid;
+    }
+
+    p.double {
+        border-style: double;
+    }
+
+    p.groove {
+        border-style: groove;
+    }
+
+    p.ridge {
+        border-style: ridge;
+    }
+
+    p.inset {
+        border-style: inset;
+    }
+
+    p.outset {
+        border-style: outset;
+    }
+
+    p.none {
+        border-style: none;
+    }
+
+    p.hidden {
+        border-style: hidden;
+    }
+
+    p.mix {
+        border-style: dotted dashed solid double;
+    }
+
+    .container {
+        border: 1px solid Black;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 300px;
+        height: 150px;
+        padding: 30px 40px;
+        text-align: center;
+    }
+
+    .container input {
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .submit {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: red;
+    }
+
+    .submit:hover {
+        background-color: blue !important;
+        color: white !important;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        background-color: aqua;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+    }
+</style>
+
+<body>
+    <h1 class="name">Tôi tên là giang</h1>
+    <p>Tôi xin ra và lớn lên tại Thanh Hóa , <br> nơi tôi ở là gần sát biển và <br> đặc sản quê hương tôi đó là nem chua
+    </p>
+    <p><a href="">Nhập sdt của bạn vào đây</a></p>
+    <p>Sdt:0368385321</p>
+    <p><a href="https://mail.google.com/mail/u/0/#inbox">Nhấp để vào Email của bạn</a></p>
+    <img class="anh" src="./images/anh1.jpg" alt=""> <br>
+    <a href="./prduct.html">Quay lại trang chủ</a>
+
+    <!-- <h2>Sử dụng thuộc tính border-style</h2>
+    <p>Đường viền sẽ xuất hiện dưới đây tùy theo giá trị của thuộc tính border-style:</p>
+
+    <p class="dotted">Đường viền là các dấu chấm.</p>
+    <p class="dashed">Đường viền là các nét đứt.</p>
+    <p class="solid">Đường viền nét liền đơn.</p>
+    <p class="double">Đường viền đôi.</p>
+    <p class="groove">Đường viền dạng xẻ rãnh.</p>
+    <p class="ridge">Đường viền dạng gờ nổi.</p>
+    <p class="inset">Đường viền dạng khung ảnh chìm.</p>
+    <p class="outset">Đường viền dạng khung ảnh nổi.</p>
+    <p class="none">Không có đường viền.</p>
+    <p class="hidden">Đường viền ẩn.</p>
+    <p class="mix">Đường viền hỗn hợp.</p> -->
+
+    <div class="container">
+        <label for="">Email:</label>
+        <input type="Email" placeholder="Nhập email của bạn vào đây" id=""> <br><br>
+        <label for="">Mật Khẩu:</label>
+        <input type="Email" placeholder="Nhập mk của bạn vào đây" id=""> <br> <br>
+        <button class="submit">Login</button>
+    </div>
+
+    <h1>Menu</h1>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">hihi</a></li>
+    </ul>
+</body>
+
+</html>
